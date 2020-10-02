@@ -1,0 +1,197 @@
+/* <!--SOEN 287 WEB PROGRAMMING SEMESTER ASSIGNMENTS-->
+<!--DESIGNED BY AMIN BOUABDELLAH (ID: 40024743) & KISHAN PATEL (ID: 40034033)--> */
+
+body {
+  background-color: #FBEEE6; /*color of overall content*/
+  color: #000000;
+  padding: 2px; /*distance of content to extremities*/
+  font-family: 'Courier New', Courier, monospace; /*font family*/
+  transform: scale(1,1);
+}
+
+.header {
+  text-align: center; /*aligning the logo and text left*/
+  background: #EDBB99; /*background color*/
+}
+
+.header h1 {
+  font-size: 40px; /*size of text website title*/
+  line-height: 0%; /*no spacing on*/
+  color: #000000;
+}
+
+.header h2 {
+  background-color: brown;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header h3 {
+  line-height: 110%; /*spacing of secondary text in header*/
+  color: #000000;
+}
+
+.categorynav {
+  text-align: left; /*Align buttons to the left*/
+  background-color: #000000; /*background color of navigation bar*/
+  padding: 14px; /*distance between links and extremities*/
+}
+
+.categorynav a {
+  color: #FFFFFF; /*make text color white for navigation links*/
+  text-decoration: none; /*remove underline on navigation links*/
+}
+.categorynav a:hover {
+  background-color: #FFFFFF; /*color changes to white upon hover of navigation button*/
+  color: black; /*color of text becomes back upon hover*/ 
+}
+
+.blocks {
+  /*Style for blocks on the page*/
+  text-align: center;
+  float: center;
+  background-color: #ffbb68;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.centerimage {
+  /*class for centering images*/
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 40;
+}
+
+.footer {
+  /*style of the footer*/
+  padding: 3px;
+  text-align: center;
+  background: #EDBB99;
+  margin-top: 20px;
+}
+.footer h2 {
+  /*style for the second heading on footer*/
+  line-height: 110%;
+  color: #000000;
+  text-align: center;
+}
+
+.footer h6 {
+  /*style for the sixth heading on footer*/
+  color: #EDBB99;
+  text-align: center;
+}
+
+.footer p {
+  /*syle for paragraphs on the footer*/
+  line-height: 110%
+}
+
+.footernav {
+  /*style for navigation toolbar on the footer*/
+  text-align: center; /*Align buttons to the left*/
+  background-color: #000000; /*background color of navigation bar*/
+  padding: 14px; /*distance between links and extremities*/
+}
+
+.footernav a {
+  color: #FBEEE6; /*make text color white for navigation links*/
+  text-decoration: none; /*remove underline on navigation links*/
+  text-align: center;
+}
+
+.footernav a:hover {
+  background-color: #FFFFFF; /*color changes to white upon hover of navigation button*/
+  color: black; /*color of text becomes back upon hover*/ 
+}
+
+.outergrid {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* max-width: 33%; */
+}
+
+.innergrid {
+  float: center;
+  columns: #000000;;
+  padding: 10px 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.innergrid h3 {
+  color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+  .innergrid {
+     flex: 50%;
+     max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .innergrid {
+     flex: 100%;
+     max-width: 100%;
+  }
+}
+
+.item {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.quantity {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    
+
+.item button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.item button:hover {
+  background-color: white;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: black;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown p {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,81 @@
+<!--SOEN 287 WEB PROGRAMMING SEMESTER ASSIGNMENTS-->
+<!--DESIGNED BY AMIN BOUABDELLAH (ID: 40024743) & KISHAN PATEL (ID: 40034033)-->
+
+<!--SINGLE PRODUCT PAGE-->
+
+<!DOCTYPE html>
+
+<!--Head elements-->
+<head>
+  <meta charset="UTF-8"><!--Unicode character set, used by all browsers-->
+  <meta name="description" content="Your local South Asian and Middle Eastern online grocery store with delivery service anywhere in Canada. Take advantage of our 200+ authentic food items from the comfort of your home. Eat spicy!"><!--The description underneath the title of the website on the search engine-->
+  <meta name="keywords" content= "south asian grocery, middle eastern grocery, indian, algerian, food, online grocery store, asian "><!--Search engine keywords-->
+  <meta name="author" content="Amin Bouabdellah, Kishan Patel"><!--Authors of the website-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Ensuring it's visible on all devices-->
+  <!-- <meta http-equiv="refresh" content="30"> --> <!--auto refreshing the page-->
+  <title>Candy & Snacks - Khana & Ohana</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Linking to the CSS style-->
+</head>
+
+<!--Elements to go into the body section-->
+<body>
+  <!--Header tags-->
+  <div class="header">
+    <img src="images/siteLogo.png" width=100px;>
+    <h1>Khana & Ohana</h1>
+    <h3>Your local South Asian and Middle Eastern online grocery store &#127757</h3>
+    <div class="categorynav">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <div class="dropdown">
+        <span>Aisles</span>
+        <div class="dropdown-content">
+          <a href="Bread_Wheats.html"><p>Bread & Wheats</p></a>
+          <a href="Candy_Snacks.html"><p>Candy & Snacks</p></a>
+          <a href="Dairy_Refrigerated.html"><p>Dairy & Refrigerated</p></a>
+          <a href="Fruits_Vegetables.html"><p>Fruits & Vegetables</p></a>
+          <a href="Spices_Condiments.html"><p>Spices & Condiments</p></a>
+        </div>
+      </div>
+      <a href="Shopping_Cart.html">Shopping Cart</a>
+    </div>
+    <h2>Candy & Snacks Aisle</h2>
+  </div>
+
+  <!--Item tags-->
+  <div class="item">
+    <img src="images/Candy_Snacks/Masala_Munch.png">
+    <h1>Masala Munch</h1>
+    <p>$0.99</p>
+    <p>Spicy chip snack</p>
+    <div>  
+      <button id="btn1" onclick="showdiv()">
+        <span id="value">More Description</span>
+      </button><br>
+      <div id="#disc">
+        <p>Origin: Colombo, Sri Lanka</p><br>Recipes: Serve with chutney or alone<br><br>Size: 10" x 4"</p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <br>
+    <input class="quantity" type="number" placeholder="Quantity">
+    <p><button>Add to Cart</button></p>
+  </div>
+
+   <!--Footer tags-->
+   <div class="footer">
+    <h2> Thanks for shopping!</h2>
+    <div>
+      <h2>For SOEN 287 Web Programming</h2><br>
+      <p>Designed by Amin & Kishan</p>
+      <p>Address: 123 Grove Street, Montreal, Quebec</p>
+      <p>Phone: (213) 555-2222 </p>
+      <p>Email: mail.support@khanaohana.ca</p>
+      <h6>R1, R2, L1 , X, Left , Down, Right, Up, Left, Down, Right, Up</h6>
+    </div>
+  </div>
+</div>
+<!-- js file connected -->
+<script src="index.js"></script>
+</body>
